@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9e420ef10d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <h1>lonborey</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#project">Project</a>
+            <a href="#skill">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="about" id="about">
+        <div class="content">
+            <h1>About Me</h1>
+            <p>I am passionate about using technology to solve real-world problems. 
+                I am also interested in the intersection of technology and social justice. 
+                I believe that technology can be used to empower people and make the world a better place.
+            </p>
+            <p>
+                I am a hard worker and I am always willing to learn new things. I am also a team player and I am always willing to help others. I am confident that I have the skills and the drive to succeed in my career. I am excited to start my career in full stack engineering. 
+                I am looking forward to using my skills and my passion to make a difference in the world.
+            </p>
+        </div>
+        <div class="photo">
+            <img src="./images/photo.png" alt="Photo">
+        </div>
+    </section>
+
+    <div class="main">
+    <section class="project" id="project">
+        <h1>Projects</h1>
+        <ul class="list">
+            <li>School Management Applicatioin</li>
+            <li>Ecommerce Web Applicatoin</li>
+            <li>Automative Application</li>
+            <li>Online Library</li>
+            <li>Game Application</li>
+        </ul>
+    </section>
+
+    <section class="experience" id="experience">
+        <h1>Experiences</h1>
+        <ul class="list">
+            <li>School Management Applicatioin</li>
+            <li>Ecommerce Web Applicatoin</li>
+            <li>Automative Application</li>
+            <li>Online Library</li>
+            <li>Game Application</li>
+        </ul>
+    </section>
+
+    <section class="skill" id="skill">
+        <h1>Skills</h1>
+        <ul class="list">
+            <li><i class="fa-brands fa-html5"></i> and <i class="fa-brands fa-css3"></i></li>
+            <li><i class="fa-brands fa-js"></i></li>
+            <li><i class="fa-brands fa-react"></i></li>
+            <li><i class="fa-brands fa-node"></i></li>
+            <li><i class="fa-solid fa-database"></i></li>
+        </ul>
+    </section>
+    </div>
+
+    <section class="contact" id="contact">
+        <h1>Contact</h1>
+        <form action="./index.html" class="form">
+            <div class="form-item">
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" required>
+            </div>
+            <div class="form-item">
+                <label for="email">Email</label>
+                <input id="email" type="text" name="email" required>
+            </div>
+
+            <div class="form-item">
+                <label for="tel">Tel</label>
+                <input id="tel" type="text" name="tel" required>
+            </div>
+            <div>
+                <input type="submit" id="submit" value="submit" class="submit">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p> ©<span id="year"></span> lonborey <a href="https://codecademy.com" target="_blank">@Codecademy</a></p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
